@@ -1,8 +1,8 @@
 const Twilio = require("twilio");
 
 const client = new Twilio(
-    "ACa6d1b77d69ba2bdd0b326a065465b1cf",
-    "e4686f696955d77b9e6499ba9d10c40c"
+    "AuthSid",
+    "AuthToken"
 )
 
 client.messages
